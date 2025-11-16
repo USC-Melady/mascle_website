@@ -56,7 +56,7 @@ const DashboardWrapper = styled.div`
 
 function App() {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <AppContainer>
         <Header />
         <Routes>
