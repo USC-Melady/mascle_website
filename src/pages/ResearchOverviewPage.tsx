@@ -660,7 +660,7 @@ const ResearchOverviewPage: React.FC = () => {
       <HeroSection style={{
         backgroundImage: `
           radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 70%, rgba(255, 255, 255, 0.6) 100%),
-          url('${getImagePath('/images/ApplyPage images/IMG_2361.jpg')}')
+          url('${getImagePath('/images/ApplyPage%20images/IMG_2361.jpg')}')
         `
       }}>
         <HeroContent>
@@ -722,7 +722,7 @@ const ResearchOverviewPage: React.FC = () => {
               <AnimatedDiv isVisible={visibleSections.apprenticeRow1}>
                 <ApprenticeRow>
                   <ImageContainer>
-                    <img src={getImagePath('/images/ApplyPage images/att.RNwVxSs2-VhoXCtdhz_tTL-LThFB-Bd83cz3nESYZ8U.jpeg')} alt="Award winning research" />
+                    <img src={getImagePath('/images/ApplyPage%20images/att.RNwVxSs2-VhoXCtdhz_tTL-LThFB-Bd83cz3nESYZ8U.jpeg')} alt="Award winning research" />
                   </ImageContainer>
 
                   <TextContent>
@@ -756,7 +756,7 @@ const ResearchOverviewPage: React.FC = () => {
                   </TextContent>
 
                   <ImageContainer>
-                    <img src={getImagePath('/images/ApplyPage images/IMG_6746.jpg')} alt="Research presentation" />
+                    <img src={getImagePath('/images/ApplyPage%20images/IMG_6746.jpg')} alt="Research presentation" />
                   </ImageContainer>
                 </ApprenticeRow>
               </AnimatedDiv>

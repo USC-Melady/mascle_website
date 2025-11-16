@@ -235,7 +235,7 @@ const ApplyPage: React.FC = () => {
         </LeftSection>
 
         <RightSection>
-          <Image src={getImagePath('.\\public\\images\\ApplyPage images\\IMG_6993.jpg')} alt="MASCLE Team" />
+          <Image src={getImagePath('.\\public\\images\\ApplyPage%20images\\IMG_6993.jpg')} alt="MASCLE Team" />
         </RightSection>
       </ContentWrapper>
 
@@ -249,7 +249,7 @@ const ApplyPage: React.FC = () => {
               <h3>Step 1: Create an Account & Log In</h3>
               <p>Begin by registering on the MASCLE research portal and logging in with your USC credentials.</p>
             </StepCard>
-            <StepImage src={getImagePath('/images/ApplyPageSteps images/Screenshot 2025-10-22 182812.png')} alt="Step 1" />
+            <StepImage src={getImagePath('/images/ApplyPageSteps%20images/Screenshot%202025-10-22%20182812.png')} alt="Step 1" />
           </StepRow>
 
           <StepRow>
@@ -257,7 +257,7 @@ const ApplyPage: React.FC = () => {
               <h3>Step 2: Complete Your Profile</h3>
               <p>Complete 100% of your profile. Upload your resume (PDF preferred) and fill in the required personal and academic information.</p>
             </StepCard>
-            <StepImage src={getImagePath('/images/ApplyPageSteps images/Screenshot 2025-10-22 182032.png')} alt="Step 2" />
+            <StepImage src={getImagePath('/images/ApplyPageSteps%20images/Screenshot%202025-10-22%20182032.png')} alt="Step 2" />
           </StepRow>
 
           <StepRow>
@@ -265,7 +265,7 @@ const ApplyPage: React.FC = () => {
               <h3>Step 3: Browse Research Opportunities</h3>
               <p>Navigate to the Research Opportunities tab to explore available positions and explore several active projects. You may apply to a maximum of three (3) projects.</p>
             </StepCard>
-            <StepImage src={getImagePath('/images/ApplyPageSteps images/Screenshot 2025-10-22 183908.png')} alt="Step 3" />
+            <StepImage src={getImagePath('/images/ApplyPageSteps%20images/Screenshot%202025-10-22%20183908.png')} alt="Step 3" />
           </StepRow>
 
           <StepRow>
@@ -303,7 +303,7 @@ const ApplyPage: React.FC = () => {
               </p>
 
             </StepCard>
-            <StepImage src={getImagePath('/images/ApplyPageSteps images/Screenshot 2025-10-22 183246.png')} alt="Step 4" />
+            <StepImage src={getImagePath('/images/ApplyPageSteps%20images/Screenshot%202025-10-22%20183246.png')} alt="Step 4" />
           </StepRow>
         </StepsContainer>
 
