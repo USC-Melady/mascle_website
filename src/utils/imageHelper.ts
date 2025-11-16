@@ -5,14 +5,21 @@
 export const getImagePath = (path: string): string => {
   const baseUrl = import.meta.env.BASE_URL || '/';
   
-  // If path already starts with the base URL or is absolute, return as-is
-  if (path.startsWith(baseUrl) || path.startsWith('http')) {
+  // If path already starts with http, return as-is (external URL)
+  if (path.startsWith('http')) {
     return path;
   }
   
-  // Remove leading slash if present to avoid double slashes
-  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  // Always ensure path starts with /
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
   
-  // Combine base URL with path
-  return `${baseUrl}${cleanPath}`;
+  // If BASE_URL is /, just return the normalized path
+  if (baseUrl === '/') {
+    return normalizedPath;
+  }
+  
+  // Otherwise, combine BASE_URL with the normalized path
+  // Remove trailing slash from baseUrl if present, then add normalizedPath
+  const cleanBase = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
+  return `${cleanBase}${normalizedPath}`;
 };

@@ -19,9 +19,6 @@ const HeroSection = styled.div`
   width: 100vw;
   height: 100vh;
   margin-left: calc(-50vw + 50%);
-  background-image: 
-    radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 70%, rgba(255, 255, 255, 0.6) 100%),
-    url('${import.meta.env.BASE_URL}images/ApplyPage images/IMG_2361.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -660,7 +657,12 @@ const ResearchOverviewPage: React.FC = () => {
 
   return (
     <>
-      <HeroSection>
+      <HeroSection style={{
+        backgroundImage: `
+          radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 70%, rgba(255, 255, 255, 0.6) 100%),
+          url('${getImagePath('/images/ApplyPage images/IMG_2361.jpg')}')
+        `
+      }}>
         <HeroContent>
           <h1>Forging the Future of Machine Learning</h1>
           <p>Connecting USC's top undergraduate and Master's students with cutting-edge faculty research</p>
