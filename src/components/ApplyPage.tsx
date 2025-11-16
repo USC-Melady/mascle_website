@@ -235,7 +235,7 @@ const ApplyPage: React.FC = () => {
         </LeftSection>
 
         <RightSection>
-          <Image src={getImagePath('.\\public\\images\\ApplyPage%20images\\IMG_6993.jpg')} alt="MASCLE Team" />
+          <Image src={getImagePath('/images/ApplyPage%20images/IMG_6993.jpg')} alt="MASCLE Team" />
         </RightSection>
       </ContentWrapper>
 
