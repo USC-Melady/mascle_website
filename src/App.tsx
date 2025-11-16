@@ -56,7 +56,7 @@ const DashboardWrapper = styled.div`
 
 function App() {
   return (
-    <Router>
+    <Router basename="/mascle_website/">
       <AppContainer>
         <Header />
         <Routes>
