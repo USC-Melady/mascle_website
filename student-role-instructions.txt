@@ -1,0 +1,41 @@
+ADDING THE STUDENT ROLE IN AWS COGNITO
+=======================================
+
+To fix the job application issue, you need to add your user to a 'Student' group in Cognito. Here's how to do it via the AWS Management Console:
+
+1. Sign in to the AWS Management Console at https://console.aws.amazon.com/
+
+2. Navigate to Cognito service:
+   - Click on "Services" at the top of the page
+   - Search for "Cognito" and select it
+
+3. Access your user pool:
+   - Select "User Pools" on the left
+   - Click on the user pool "amplifyAuthUserPool4BA7F805-SdZHZFDMwntN" (ID: us-east-1_EGRM8duhP)
+
+4. Create a Student group:
+   - Go to the "Groups" tab on the left sidebar
+   - Click "Create group"
+   - Group name: Student
+   - Description: Students who can apply to jobs
+   - Role ARN: (leave blank)
+   - Precedence: 3 (higher number than existing groups)
+   - Click "Create group"
+
+5. Add your user to the Student group:
+   - Go to the "Users" tab on the left sidebar
+   - Find and click on your username (the one with your email)
+   - On the user details page, go to the "Group memberships" tab
+   - Click "Add user to group"
+   - Select "Student" from the dropdown
+   - Click "Add"
+
+6. Verify job statuses in DynamoDB (optional but recommended):
+   - Go to the DynamoDB service in AWS Console
+   - Click on "Tables" in the left sidebar
+   - Find and select the Job table (starts with "Job-")
+   - Go to the "Items" tab
+   - For any job you want to apply to, make sure the "status" field is set to "OPEN" (exactly as written, in uppercase)
+   - If you need to edit a job status, select the item and change the status value to "OPEN"
+
+After completing these steps, you should be able to apply to jobs in your application. 

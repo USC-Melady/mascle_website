@@ -1,0 +1,15 @@
+{
+  "test": {
+    "httpMethod": "POST",
+    "path": "/refreshResumeData",
+    "body": "{}",
+    "requestContext": {
+      "authorizer": {
+        "claims": {
+          "sub": "test-user-id",
+          "cognito:groups": "Professor"
+        }
+      }
+    }
+  }
+} 

@@ -1,0 +1,10 @@
+{
+  "name": "refresh-resume-data",
+  "version": "1.0.0",
+  "description": "Lambda function to refresh resume data in applications",
+  "main": "src/index.js",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.400.0"
+  },
+  "private": true
+} 
