@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styled from '@emotion/styled';
+import { getImagePath } from '../utils/imageHelper';
 
 // Animated wrapper component
 interface AnimatedDivProps {
@@ -719,7 +720,7 @@ const ResearchOverviewPage: React.FC = () => {
               <AnimatedDiv isVisible={visibleSections.apprenticeRow1}>
                 <ApprenticeRow>
                   <ImageContainer>
-                    <img src="/images/ApplyPage images/att.RNwVxSs2-VhoXCtdhz_tTL-LThFB-Bd83cz3nESYZ8U.jpeg" alt="Award winning research" />
+                    <img src={getImagePath('/images/ApplyPage images/att.RNwVxSs2-VhoXCtdhz_tTL-LThFB-Bd83cz3nESYZ8U.jpeg')} alt="Award winning research" />
                   </ImageContainer>
 
                   <TextContent>
@@ -753,7 +754,7 @@ const ResearchOverviewPage: React.FC = () => {
                   </TextContent>
 
                   <ImageContainer>
-                    <img src="/images/ApplyPage images/IMG_6746.jpg" alt="Research presentation" />
+                    <img src={getImagePath('/images/ApplyPage images/IMG_6746.jpg')} alt="Research presentation" />
                   </ImageContainer>
                 </ApprenticeRow>
               </AnimatedDiv>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button, Card, Form, Alert, Container, Spinner, Tabs, Tab } from 'react-bootstrap';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { authenticateUser, registerUser, confirmRegistration, completeNewPasswordChallenge, getAuthenticatedUser } from '../utils/auth';
+import { getImagePath } from '../utils/imageHelper';
 import styled from '@emotion/styled';
 
 // USC Color scheme
@@ -283,7 +284,7 @@ const Login: React.FC = () => {
   return (
     <LoginContainer>
       <LogoContainer>
-        <img src="/images/PrimShield_Mono.png" alt="USC Shield" />
+        <img src={getImagePath('/images/PrimShield_Mono.png')} alt="USC Shield" />
       </LogoContainer>
       <StyledCard>
         <CardHeader>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from '@emotion/styled';
+import { getImagePath } from '../utils/imageHelper';
 import {
   Navbar,
   Container,
@@ -291,7 +292,7 @@ const Header: React.FC = () => {
       <StyledNavbar>
         <Container fluid>
           <div className="w-100 d-flex justify-content-end pe-4">
-            <Logo src="/images/usc-shield.png" alt="USC Shield" size="60px" />
+            <Logo src={getImagePath('/images/usc-shield.png')} alt="USC Shield" size="60px" />
           </div>
         </Container>
       </StyledNavbar>
@@ -303,12 +304,12 @@ const Header: React.FC = () => {
             {/* Left column: Viterbi logo and center name */}
             <LeftSection xs={12} lg="auto">
               <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
-                <Logo src="/images/usc-viterbi-logo1.jpg" alt="USC Viterbi Logo" />
+                <Logo src={getImagePath('/images/usc-viterbi-logo1.jpg')} alt="USC Viterbi Logo" />
                 <div
                   className="mx-2 mx-lg-3 bg-secondary opacity-25"
                   style={{ width: '1px', height: '50px' }}
                 />
-                <MascleLogo src="/images/mascle_logo2.png" alt="USC Machine Learning Center (MaSCle)" />
+                <MascleLogo src={getImagePath('/images/mascle_logo2.png')} alt="USC Machine Learning Center (MaSCle)" />
               </Navbar.Brand>
             </LeftSection>
 
