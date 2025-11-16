@@ -1,0 +1,20 @@
+{
+  "name": "enhanceApplicationsWithResumeData",
+  "handler": "src/index.handler",
+  "runtime": "nodejs18.x",
+  "memory": 256,
+  "timeout": 60,
+  "schedule": "rate(1 day)",
+  "permissions": {
+    "storage": {
+      "Match:$AMPLIFY_ENV": [
+        "read",
+        "update"
+      ],
+      "User:$AMPLIFY_ENV": [
+        "read"
+      ]
+    },
+    "api": {}
+  }
+} 

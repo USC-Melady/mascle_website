@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "appsync:*"
+      ],
+      "Resource": [
+        "arn:aws:appsync:us-east-1:209479287811:apis/fdob2vhf5rcx5nmzeui5vspzqu",
+        "arn:aws:appsync:us-east-1:209479287811:apis/fdob2vhf5rcx5nmzeui5vspzqu/*",
+        "arn:aws:appsync:us-east-1:209479287811:/v1/apis/fdob2vhf5rcx5nmzeui5vspzqu/schemacreation"
+      ]
+    }
+  ]
+} 

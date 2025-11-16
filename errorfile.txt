@@ -1,0 +1,428 @@
+Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+amplify-config.ts:36 Amplify configured with aws-exports: {
+  "Auth": {
+    "Cognito": {
+      "userPoolId": "us-east-1_30fproRll",
+      "userPoolClientId": "741fv75skur3djbvfkcjbiks31",
+      "identityPoolId": "us-east-1:6eab344a-e196-4ba2-abf8-d95474532db0",
+      "loginWith": {
+        "email": true
+      }
+    }
+  },
+  "API": {
+    "GraphQL": {
+      "endpoint": "https://c3irv525nzeyblzht3jy6vyvme.appsync-api.us-east-1.amazonaws.com/graphql",
+      "region": "us-east-1",
+      "defaultAuthMode": "userPool",
+      "apiKey": "da2-otmo623xuzfmta3ppognhq56ty",
+      "additionalAuthTypes": [
+        "apiKey",
+        "iam"
+      ]
+    }
+  },
+  "Storage": {
+    "S3": {
+      "bucket": "amplify-mascle-alaba-sand-amplifydataamplifycodege-rmtqu2x4u31t",
+      "region": "us-east-1",
+      "level": "protected",
+      "identityPoolId": "us-east-1:6eab344a-e196-4ba2-abf8-d95474532db0"
+    }
+  }
+}
+amplify-config.ts:41 Current Amplify configuration: {
+  "Auth": {
+    "Cognito": {
+      "userPoolId": "us-east-1_30fproRll",
+      "userPoolClientId": "741fv75skur3djbvfkcjbiks31",
+      "identityPoolId": "us-east-1:6eab344a-e196-4ba2-abf8-d95474532db0",
+      "loginWith": {
+        "email": true,
+        "username": false,
+        "phone": false
+      }
+    }
+  },
+  "API": {
+    "REST": {
+      "default": {
+        "endpoint": "https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev",
+        "region": "us-east-1"
+      },
+      "jobs": {
+        "endpoint": "https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/jobs",
+        "region": "us-east-1"
+      }
+    },
+    "GraphQL": {
+      "endpoint": "https://c3irv525nzeyblzht3jy6vyvme.appsync-api.us-east-1.amazonaws.com/graphql",
+      "region": "us-east-1",
+      "defaultAuthMode": "userPool",
+      "apiKey": "da2-otmo623xuzfmta3ppognhq56ty",
+      "additionalAuthTypes": [
+        "apiKey",
+        "iam"
+      ]
+    }
+  },
+  "Storage": {
+    "S3": {
+      "bucket": "amplify-mascle-alaba-sand-amplifydataamplifycodege-rmtqu2x4u31t",
+      "region": "us-east-1",
+      "level": "protected",
+      "identityPoolId": "us-east-1:6eab344a-e196-4ba2-abf8-d95474532db0"
+    }
+  }
+}
+jobManagement.ts:13 Current Amplify configuration: ObjectAPI: GraphQL: {endpoint: 'https://c3irv525nzeyblzht3jy6vyvme.appsync-api.us-east-1.amazonaws.com/graphql', region: 'us-east-1', defaultAuthMode: 'userPool', apiKey: 'da2-otmo623xuzfmta3ppognhq56ty', additionalAuthTypes: Array(2)}REST: default: {endpoint: 'https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev', region: 'us-east-1'}jobs: {endpoint: 'https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/jobs', region: 'us-east-1'}[[Prototype]]: Object[[Prototype]]: ObjectAuth: Cognito: {userPoolId: 'us-east-1_30fproRll', userPoolClientId: '741fv75skur3djbvfkcjbiks31', identityPoolId: 'us-east-1:6eab344a-e196-4ba2-abf8-d95474532db0', loginWith: {…}}[[Prototype]]: ObjectStorage: {S3: {…}}[[Prototype]]: Object
+jobManagement.ts:25 Amplify client initialized successfully
+jobManagement.ts:29 Available models: 
+jobManagement.ts:36 Job model or its methods not found in client. Will fall back to Lambda function.
+(anonymous) @ jobManagement.ts:36Understand this warning
+labManagement.ts:11 Amplify client initialized successfully for lab management
+amplify-config.ts:36 Amplify configured with aws-exports: {
+  "Auth": {
+    "Cognito": {
+      "userPoolId": "us-east-1_30fproRll",
+      "userPoolClientId": "741fv75skur3djbvfkcjbiks31",
+      "identityPoolId": "us-east-1:6eab344a-e196-4ba2-abf8-d95474532db0",
+      "loginWith": {
+        "email": true
+      }
+    }
+  },
+  "API": {
+    "GraphQL": {
+      "endpoint": "https://c3irv525nzeyblzht3jy6vyvme.appsync-api.us-east-1.amazonaws.com/graphql",
+      "region": "us-east-1",
+      "defaultAuthMode": "userPool",
+      "apiKey": "da2-otmo623xuzfmta3ppognhq56ty",
+      "additionalAuthTypes": [
+        "apiKey",
+        "iam"
+      ]
+    }
+  },
+  "Storage": {
+    "S3": {
+      "bucket": "amplify-mascle-alaba-sand-amplifydataamplifycodege-rmtqu2x4u31t",
+      "region": "us-east-1",
+      "level": "protected",
+      "identityPoolId": "us-east-1:6eab344a-e196-4ba2-abf8-d95474532db0"
+    }
+  }
+}
+amplify-config.ts:41 Current Amplify configuration: {
+  "Auth": {
+    "Cognito": {
+      "userPoolId": "us-east-1_30fproRll",
+      "userPoolClientId": "741fv75skur3djbvfkcjbiks31",
+      "identityPoolId": "us-east-1:6eab344a-e196-4ba2-abf8-d95474532db0",
+      "loginWith": {
+        "email": true,
+        "username": false,
+        "phone": false
+      }
+    }
+  },
+  "API": {
+    "REST": {
+      "default": {
+        "endpoint": "https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev",
+        "region": "us-east-1"
+      },
+      "jobs": {
+        "endpoint": "https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/jobs",
+        "region": "us-east-1"
+      }
+    },
+    "GraphQL": {
+      "endpoint": "https://c3irv525nzeyblzht3jy6vyvme.appsync-api.us-east-1.amazonaws.com/graphql",
+      "region": "us-east-1",
+      "defaultAuthMode": "userPool",
+      "apiKey": "da2-otmo623xuzfmta3ppognhq56ty",
+      "additionalAuthTypes": [
+        "apiKey",
+        "iam"
+      ]
+    }
+  },
+  "Storage": {
+    "S3": {
+      "bucket": "amplify-mascle-alaba-sand-amplifydataamplifycodege-rmtqu2x4u31t",
+      "region": "us-east-1",
+      "level": "protected",
+      "identityPoolId": "us-east-1:6eab344a-e196-4ba2-abf8-d95474532db0"
+    }
+  }
+}
+auth.ts:563 User groups: Array(1)0: "Professor"length: 1[[Prototype]]: Array(0)at: ƒ at()concat: ƒ concat()constructor: ƒ Array()copyWithin: ƒ copyWithin()entries: ƒ entries()every: ƒ every()fill: ƒ fill()filter: ƒ filter()find: ƒ find()findIndex: ƒ findIndex()findLast: ƒ findLast()findLastIndex: ƒ findLastIndex()flat: ƒ flat()flatMap: ƒ flatMap()forEach: ƒ forEach()includes: ƒ includes()indexOf: ƒ indexOf()join: ƒ join()keys: ƒ keys()lastIndexOf: ƒ lastIndexOf()length: 0map: ƒ map()pop: ƒ pop()push: ƒ push()reduce: ƒ reduce()reduceRight: ƒ reduceRight()reverse: ƒ reverse()shift: ƒ shift()slice: ƒ slice()some: ƒ some()sort: ƒ sort()splice: ƒ splice()toLocaleString: ƒ toLocaleString()toReversed: ƒ toReversed()toSorted: ƒ toSorted()toSpliced: ƒ toSpliced()toString: ƒ toString()unshift: ƒ unshift()values: ƒ values()with: ƒ with()Symbol(Symbol.iterator): ƒ values()Symbol(Symbol.unscopables): {at: true, copyWithin: true, entries: true, fill: true, find: true, …}[[Prototype]]: Object
+auth.ts:563 User groups: Array(1)0: "Professor"length: 1[[Prototype]]: Array(0)
+auth.ts:563 User groups: Array(1)0: "Professor"length: 1[[Prototype]]: Array(0)
+Header.tsx:215 Full user object: {
+  "username": "3488d428-c021-7022-1ea5-030af5a480f3",
+  "roles": [
+    "Professor"
+  ],
+  "isAuthenticated": true,
+  "attributes": {
+    "email": "alabaweh22@gmail.com",
+    "email_verified": "true",
+    "given_name": "profalaba",
+    "sub": "3488d428-c021-7022-1ea5-030af5a480f3"
+  }
+}
+Header.tsx:243 Attempting to sync resume data to database...
+utils.ts:996 No local resume data to sync
+auth.ts:563 User groups: Array(1)
+Header.tsx:215 Full user object: {
+  "username": "3488d428-c021-7022-1ea5-030af5a480f3",
+  "roles": [
+    "Professor"
+  ],
+  "isAuthenticated": true,
+  "attributes": {
+    "email": "alabaweh22@gmail.com",
+    "email_verified": "true",
+    "given_name": "profalaba",
+    "sub": "3488d428-c021-7022-1ea5-030af5a480f3"
+  }
+}
+Header.tsx:243 Attempting to sync resume data to database...
+utils.ts:996 No local resume data to sync
+JobManagementPage.tsx:49 Current user: Object
+labManagement.ts:90 Fetching labs
+labManagement.ts:114 Using REST API to fetch labs
+JobManagementPage.tsx:49 Current user: Object
+labManagement.ts:90 Fetching labs
+labManagement.ts:114 Using REST API to fetch labs
+auth.ts:563 User groups: Array(1)
+auth.ts:563 User groups: Array(1)
+2labManagement.ts:123 Labs API URL: https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/labs
+labManagement.ts:137 API response data: Object
+JobManagementPage.tsx:54 Labs data: Array(1)
+labManagement.ts:137 API response data: Object
+JobManagementPage.tsx:54 Labs data: Array(1)
+labManagement.ts:90 Fetching labs
+labManagement.ts:114 Using REST API to fetch labs
+labManagement.ts:123 Labs API URL: https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/labs
+labManagement.ts:90 Fetching labs
+labManagement.ts:114 Using REST API to fetch labs
+labManagement.ts:123 Labs API URL: https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/labs
+JobApplicationsPage.tsx:149 Professor/Lab Assistant: getting applications for lab jobs
+labManagement.ts:90 Fetching labs
+labManagement.ts:114 Using REST API to fetch labs
+labManagement.ts:123 Labs API URL: https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/labs
+JobApplicationsPage.tsx:149 Professor/Lab Assistant: getting applications for lab jobs
+labManagement.ts:90 Fetching labs
+labManagement.ts:114 Using REST API to fetch labs
+labManagement.ts:123 Labs API URL: https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/labs
+labManagement.ts:137 API response data: Object
+userManagement.ts:126 API URL: https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/users
+jobManagement.ts:203 Jobs API response: Object
+JobManagementPage.tsx:66 Jobs data: Array(2)
+jobManagement.ts:203 Jobs API response: Object
+JobManagementPage.tsx:66 Jobs data: Array(2)
+labManagement.ts:137 API response data: Object
+userManagement.ts:126 API URL: https://scvh6uq7r1.execute-api.us-east-1.amazonaws.com/dev/users
+labManagement.ts:137 API response data: Object
+labManagement.ts:77 User 3488d428-c021-7022-1ea5-030af5a480f3 is associated with 1 labs: Array(1)
+JobApplicationsPage.tsx:156 User labs: Array(1)
+JobApplicationsPage.tsx:160 Getting jobs for lab IDs: Array(1)
+jobManagement.ts:517 Getting jobs for lab IDs: Array(1)
+labManagement.ts:137 API response data: Object
+labManagement.ts:77 User 3488d428-c021-7022-1ea5-030af5a480f3 is associated with 1 labs: Array(1)
+JobApplicationsPage.tsx:156 User labs: Array(1)
+JobApplicationsPage.tsx:160 Getting jobs for lab IDs: Array(1)
+jobManagement.ts:517 Getting jobs for lab IDs: Array(1)
+userManagement.ts:151 API response data: Object
+jobManagement.ts:203 Jobs API response: Object
+jobManagement.ts:525 Found 2 jobs in labs 47c229f8-124e-4b8c-b854-eef50b17690c out of 2 total jobs
+JobApplicationsPage.tsx:164 Found 2 jobs in user's labs
+JobApplicationsPage.tsx:169 Getting applications for job: Friday1 (63cca800-9990-40c9-85cc-827bbf4d9649)
+jobManagement.ts:725 Fetching applications for job 63cca800-9990-40c9-85cc-827bbf4d9649...
+JobApplicationsPage.tsx:169 Getting applications for job: Tuesday_test (88be9cc9-fc25-4763-a3d7-de7ebc4bbe57)
+jobManagement.ts:725 Fetching applications for job 88be9cc9-fc25-4763-a3d7-de7ebc4bbe57...
+userManagement.ts:151 API response data: Object
+jobManagement.ts:203 Jobs API response: Object
+jobManagement.ts:525 Found 2 jobs in labs 47c229f8-124e-4b8c-b854-eef50b17690c out of 2 total jobs
+JobApplicationsPage.tsx:164 Found 2 jobs in user's labs
+JobApplicationsPage.tsx:169 Getting applications for job: Friday1 (63cca800-9990-40c9-85cc-827bbf4d9649)
+jobManagement.ts:725 Fetching applications for job 63cca800-9990-40c9-85cc-827bbf4d9649...
+JobApplicationsPage.tsx:169 Getting applications for job: Tuesday_test (88be9cc9-fc25-4763-a3d7-de7ebc4bbe57)
+jobManagement.ts:725 Fetching applications for job 88be9cc9-fc25-4763-a3d7-de7ebc4bbe57...
+jobManagement.ts:203 Jobs API response: Object
+jobManagement.ts:733 Found job details for 63cca800-9990-40c9-85cc-827bbf4d9649: Object
+jobManagement.ts:740 Making direct API call to get applications for job 63cca800-9990-40c9-85cc-827bbf4d9649
+jobManagement.ts:764 API returned 1 applications for job 63cca800-9990-40c9-85cc-827bbf4d9649
+jobManagement.ts:765 Raw API response data: {
+  "applications": [
+    {
+      "coverLetter": "tesing monday",
+      "userId": "341884c8-e061-702b-fbed-7905ac1b1e22",
+      "updatedAt": "2025-05-05T22:18:40.542Z",
+      "status": "Pending",
+      "jobId": "63cca800-9990-40c9-85cc-827bbf4d9649",
+      "createdAt": "2025-05-05T22:18:40.542Z",
+      "userDetails": {
+        "email": "test@usc.edu",
+        "fullName": "",
+        "phone": "",
+        "education": "",
+        "resumeUrl": "resumes/341884c8-e061-702b-fbed-7905ac1b1e22/1755567070326-4045bded-3b6c-4cbd-9152-900427ae27e7.docx"
+      },
+      "id": "722a84db-58c2-4ac0-9b90-ffb3933d6180",
+      "resumeUrl": "resumes/341884c8-e061-702b-fbed-7905ac1b1e22/1755567070326-4045bded-3b6c-4cbd-9152-900427ae27e7.docx",
+      "resumeDetails": {
+        "education": [
+          {
+            "institution": "USC Dornsife College of Letters, Arts and Sciences",
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "graduationStartMonth": "01",
+            "graduationStartYear": "2015",
+            "graduationEndMonth": "04",
+            "graduationEndYear": "2025",
+            "gpa": "4",
+            "yearsOfExperience": "3",
+            "seniority": "senior"
+          }
+        ],
+        "experience": [
+          {
+            "company": "google",
+            "position": "swe",
+            "startDate": "june 2022",
+            "endDate": "may 2023",
+            "description": "swe , just testing if it works"
+          }
+        ],
+        "skills": [
+          "python",
+          "C++",
+          "testing",
+          "test",
+          "test1"
+        ],
+        "projects": [
+          {
+            "title": "mascle",
+            "description": "testing, second test",
+            "technologies": "test",
+            "url": "github.com/alabaweh"
+          }
+        ],
+        "lastUpdated": "2025-08-25T01:03:40.590Z"
+      }
+    }
+  ],
+  "count": 1
+}
+jobManagement.ts:771 Processing application for user 341884c8-e061-702b-fbed-7905ac1b1e22 Object
+jobManagement.ts:817 Processed 1 applications from API
+jobManagement.ts:818 Final applications data: Array(1)
+JobApplicationsPage.tsx:171 Job Friday1 has 1 applications
+jobManagement.ts:203 Jobs API response: Object
+jobManagement.ts:733 Found job details for 88be9cc9-fc25-4763-a3d7-de7ebc4bbe57: Object
+jobManagement.ts:740 Making direct API call to get applications for job 88be9cc9-fc25-4763-a3d7-de7ebc4bbe57
+jobManagement.ts:203 Jobs API response: Object
+jobManagement.ts:733 Found job details for 63cca800-9990-40c9-85cc-827bbf4d9649: Object
+jobManagement.ts:740 Making direct API call to get applications for job 63cca800-9990-40c9-85cc-827bbf4d9649
+jobManagement.ts:764 API returned 0 applications for job 88be9cc9-fc25-4763-a3d7-de7ebc4bbe57
+jobManagement.ts:765 Raw API response data: {
+  "applications": [],
+  "count": 0
+}
+jobManagement.ts:817 Processed 0 applications from API
+jobManagement.ts:818 Final applications data: Array(0)
+jobManagement.ts:152 Amplify readiness check: Object
+jobManagement.ts:843 Amplify client not properly initialized and API call failed - Match model not available
+getApplicationsForJob @ jobManagement.ts:843Understand this warning
+JobApplicationsPage.tsx:171 Job Tuesday_test has 0 applications
+JobApplicationsPage.tsx:178 Total applications from all lab jobs: 1
+JobApplicationsPage.tsx:191 Final applications count: 1
+jobManagement.ts:764 API returned 1 applications for job 63cca800-9990-40c9-85cc-827bbf4d9649
+jobManagement.ts:765 Raw API response data: {
+  "applications": [
+    {
+      "coverLetter": "tesing monday",
+      "userId": "341884c8-e061-702b-fbed-7905ac1b1e22",
+      "updatedAt": "2025-05-05T22:18:40.542Z",
+      "status": "Pending",
+      "jobId": "63cca800-9990-40c9-85cc-827bbf4d9649",
+      "createdAt": "2025-05-05T22:18:40.542Z",
+      "userDetails": {
+        "email": "test@usc.edu",
+        "fullName": "",
+        "phone": "",
+        "education": "",
+        "resumeUrl": "resumes/341884c8-e061-702b-fbed-7905ac1b1e22/1755567070326-4045bded-3b6c-4cbd-9152-900427ae27e7.docx"
+      },
+      "id": "722a84db-58c2-4ac0-9b90-ffb3933d6180",
+      "resumeUrl": "resumes/341884c8-e061-702b-fbed-7905ac1b1e22/1755567070326-4045bded-3b6c-4cbd-9152-900427ae27e7.docx",
+      "resumeDetails": {
+        "education": [
+          {
+            "institution": "USC Dornsife College of Letters, Arts and Sciences",
+            "degree": "Bachelor of Science",
+            "major": "Computer Science",
+            "graduationStartMonth": "01",
+            "graduationStartYear": "2015",
+            "graduationEndMonth": "04",
+            "graduationEndYear": "2025",
+            "gpa": "4",
+            "yearsOfExperience": "3",
+            "seniority": "senior"
+          }
+        ],
+        "experience": [
+          {
+            "company": "google",
+            "position": "swe",
+            "startDate": "june 2022",
+            "endDate": "may 2023",
+            "description": "swe , just testing if it works"
+          }
+        ],
+        "skills": [
+          "python",
+          "C++",
+          "testing",
+          "test",
+          "test1"
+        ],
+        "projects": [
+          {
+            "title": "mascle",
+            "description": "testing, second test",
+            "technologies": "test",
+            "url": "github.com/alabaweh"
+          }
+        ],
+        "lastUpdated": "2025-08-25T01:03:40.590Z"
+      }
+    }
+  ],
+  "count": 1
+}
+jobManagement.ts:771 Processing application for user 341884c8-e061-702b-fbed-7905ac1b1e22 Object
+jobManagement.ts:817 Processed 1 applications from API
+jobManagement.ts:818 Final applications data: Array(1)0: {matchId: '722a84db-58c2-4ac0-9b90-ffb3933d6180', studentId: '341884c8-e061-702b-fbed-7905ac1b1e22', hasResumeUrl: true, resumeUrl: 'resumes/341884c8-e061-702b-fbed-7905ac1b1e22/1755567070326-4045bded-3b6c-4cbd-9152-900427ae27e7.docx'}length: 1[[Prototype]]: Array(0)
+JobApplicationsPage.tsx:171 Job Friday1 has 1 applications
+jobManagement.ts:203 Jobs API response: Object
+jobManagement.ts:733 Found job details for 88be9cc9-fc25-4763-a3d7-de7ebc4bbe57: Object
+jobManagement.ts:740 Making direct API call to get applications for job 88be9cc9-fc25-4763-a3d7-de7ebc4bbe57
+jobManagement.ts:764 API returned 0 applications for job 88be9cc9-fc25-4763-a3d7-de7ebc4bbe57
+jobManagement.ts:765 Raw API response data: {
+  "applications": [],
+  "count": 0
+}
+jobManagement.ts:817 Processed 0 applications from API
+jobManagement.ts:818 Final applications data: Array(0)
+jobManagement.ts:152 Amplify readiness check: Object
+jobManagement.ts:843 Amplify client not properly initialized and API call failed - Match model not available
+getApplicationsForJob @ jobManagement.ts:843Understand this warning
+JobApplicationsPage.tsx:171 Job Tuesday_test has 0 applications
+JobApplicationsPage.tsx:178 Total applications from all lab jobs: 1
+JobApplicationsPage.tsx:191 Final applications count: 1

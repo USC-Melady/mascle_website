@@ -1,0 +1,31 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "appsync:StartSchemaCreation",
+        "appsync:GetSchemaCreationStatus",
+        "appsync:GetIntrospectionSchema",
+        "appsync:ListFunctions",
+        "appsync:CreateFunction",
+        "appsync:UpdateFunction",
+        "appsync:DeleteFunction",
+        "appsync:CreateResolver",
+        "appsync:UpdateResolver",
+        "appsync:DeleteResolver",
+        "appsync:GetResolver",
+        "appsync:ListResolvers",
+        "appsync:CreateApiKey",
+        "appsync:UpdateApiKey",
+        "appsync:DeleteApiKey",
+        "appsync:CreateType",
+        "appsync:DeleteType",
+        "appsync:UpdateType"
+      ],
+      "Resource": [
+        "arn:aws:appsync:us-east-1:209479287811:apis/fdob2vhf5rcx5nmzeui5vspzqu"
+      ]
+    }
+  ]
+} 

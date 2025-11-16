@@ -1,0 +1,44 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "User-val7xiyjy5bf5lxvmzbbmmaqaq-NONE",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2025-03-11T02:48:32.999000-07:00",
+        "ProvisionedThroughput": {
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 0,
+            "WriteCapacityUnits": 0
+        },
+        "TableSizeBytes": 544,
+        "ItemCount": 2,
+        "TableArn": "arn:aws:dynamodb:us-east-1:209479287811:table/User-val7xiyjy5bf5lxvmzbbmmaqaq-NONE",
+        "TableId": "4906ee75-1e9f-4f47-818c-9405abf5c0c6",
+        "BillingModeSummary": {
+            "BillingMode": "PAY_PER_REQUEST",
+            "LastUpdateToPayPerRequestDateTime": "2025-03-11T02:48:32.999000-07:00"
+        },
+        "StreamSpecification": {
+            "StreamEnabled": true,
+            "StreamViewType": "NEW_AND_OLD_IMAGES"
+        },
+        "LatestStreamLabel": "2025-03-11T09:48:32.999",
+        "LatestStreamArn": "arn:aws:dynamodb:us-east-1:209479287811:table/User-val7xiyjy5bf5lxvmzbbmmaqaq-NONE/stream/2025-03-11T09:48:32.999",
+        "DeletionProtectionEnabled": false,
+        "WarmThroughput": {
+            "ReadUnitsPerSecond": 12000,
+            "WriteUnitsPerSecond": 4000,
+            "Status": "ACTIVE"
+        }
+    }
+}
