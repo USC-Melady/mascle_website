@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styled from '@emotion/styled';
 import { Container } from 'react-bootstrap';
+import { getImagePath } from '../utils/imageHelper';
 
 const USC_RED = '#990000';
 
@@ -91,6 +92,9 @@ const LabCardLogo = styled.img`
     width: 100px;
   }
 `;
+
+// Helper function to render lab logo with correct path
+const getLabLogoSrc = (logo: string) => getImagePath(logo);
 
 const LabCardName = styled.h3`
   color: ${USC_RED};
@@ -560,7 +564,7 @@ const LabsPage: React.FC = () => {
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0.6rem'}}>
-                  <LabCardLogo src={lab.logo} alt={`${lab.name} Lab Logo`} />
+                  <LabCardLogo src={getLabLogoSrc(lab.logo)} alt={`${lab.name} Lab Logo`} />
                   <LabCardName>{lab.name}</LabCardName>
                   <LabCardDescription>{lab.fullName}</LabCardDescription>
                 </div>
@@ -587,7 +591,7 @@ const LabsPage: React.FC = () => {
           {activeLabData ? (
             <>
               <LogoContainer>
-                <LabLogo src={activeLabData.logo} alt={`${activeLabData.name} Lab Logo`} />
+                <LabLogo src={getLabLogoSrc(activeLabData.logo)} alt={`${activeLabData.name} Lab Logo`} />
               </LogoContainer>
               <ContentWrapper>
                 <LabTitle>{activeLabData?.fullName}</LabTitle>

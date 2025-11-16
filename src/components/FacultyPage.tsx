@@ -2,6 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { facultyMembers } from '../data/people';
+import { getImagePath } from '../utils/imageHelper';
 import PeopleNav from './shared/PeopleNav';
 import DefaultProfileImage from './shared/DefaultProfileImage';
 import { Faculty } from '../types/people';
@@ -65,7 +66,7 @@ const PersonTitle = styled.p`
 const FacultyPage: React.FC = () => {
   const renderPersonImage = (person: Faculty) => {
     if (person.image && person.image !== '') {
-      return <PersonImage variant="top" src={person.image} alt={person.name} />;
+      return <PersonImage variant="top" src={getImagePath(person.image)} alt={person.name} />;
     }
     return <DefaultProfileImage name={person.name} />;
   };

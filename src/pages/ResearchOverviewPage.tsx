@@ -21,7 +21,7 @@ const HeroSection = styled.div`
   margin-left: calc(-50vw + 50%);
   background-image: 
     radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 70%, rgba(255, 255, 255, 0.6) 100%),
-    url('public/images/ApplyPage images/IMG_2361.jpg');
+    url('${import.meta.env.BASE_URL}images/ApplyPage images/IMG_2361.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: scroll;

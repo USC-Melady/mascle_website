@@ -276,13 +276,13 @@ const Header: React.FC = () => {
       
       // Force a complete page refresh to ensure all state is cleared
       // This ensures no stale authentication data remains
-      window.location.href = '/';
+      window.location.href = '/mascle_website/';
     } catch (error) {
       console.error('Error signing out:', error);
       // Even if logout fails, clear local state and redirect
       setIsAuthenticated(false);
       setUserName(null);
-      window.location.href = '/';
+      window.location.href = '/mascle_website/';
     }
   };
 
