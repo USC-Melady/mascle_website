@@ -283,7 +283,7 @@ const Login: React.FC = () => {
   return (
     <LoginContainer>
       <LogoContainer>
-        <img src="/images/PrimShield_Mono.png" alt="USC Shield" />
+        <img src="/mascle_website/images/PrimShield_Mono.png" alt="USC Shield" />
       </LogoContainer>
       <StyledCard>
         <CardHeader>
