@@ -346,7 +346,6 @@ const Header: React.FC = () => {
                         {!isAuthenticated && (
                           <NavDropdown.Item as={Link} to="/apply">How to Apply</NavDropdown.Item>
                         )}
-                        <NavDropdown.Item as={Link} to="/jobs/public">Open Projects</NavDropdown.Item>
                       </StyledNavDropdown>
                       <RedNavLink as={Link} to="/events">Events</RedNavLink>
 

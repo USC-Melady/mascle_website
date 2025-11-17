@@ -301,30 +301,6 @@ const AboutUsLeftText = styled.div`
   }
 `;
 
-const CheckProjectsContainer = styled.div`
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-top: 1rem;
-
-  span {
-    font-size: 0.95rem;
-    color: #333;
-    font-weight: 500;
-  }
-
-  a {
-    color: #990000;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: #ffc107;
-    }
-  }
-`;
-
 const ApprenticeCardsGrid = styled.div`
   display: flex;
   flex-direction: column;
@@ -687,10 +663,6 @@ const ResearchOverviewPage: React.FC = () => {
                 Compensation (if any) is decided by the individual research lab, and positions are generally unpaid, though some may offer course credit. Students are limited to participation in one project per semester to ensure focus and depth of contribution. Each semester, projects from a wide range of disciplines are open to new applicants, and faculty and students from all schools and colleges at USC are welcome to participate.
               </p>
 
-              <CheckProjectsContainer>
-                <span>See the open project listings</span>
-                <a href="/jobs/public">here</a>
-              </CheckProjectsContainer>
             </AboutUsLeftText>
           </AboutUsLeft>
         </AboutUsContent>
