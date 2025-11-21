@@ -475,59 +475,6 @@ const AcknowledgementsPage: React.FC = () => {
       </ContentSection>
 
       <ContentSection>
-        <SectionTitle>Our Journey</SectionTitle>
-        <DecorLine />
-        <SectionDescription>
-          From humble beginnings to becoming a leading ML hub at USC, 
-          MaSCle's growth is a testament to our community's dedication.
-        </SectionDescription>
-
-        <TimelineSection>
-          <TimelineTitle>MaSCle Timeline</TimelineTitle>
-          
-          <TimelineItem>
-            <TimelineYear>2020</TimelineYear>
-            <TimelineContent>
-              <h4>Foundation</h4>
-              <p>MaSCle is established as a student-led machine learning initiative at USC, bringing together passionate ML enthusiasts and researchers.</p>
-            </TimelineContent>
-          </TimelineItem>
-
-          <TimelineItem>
-            <TimelineYear>2021</TimelineYear>
-            <TimelineContent>
-              <h4>Expansion</h4>
-              <p>Launch of the apprenticeship program, connecting students with faculty research labs across campus.</p>
-            </TimelineContent>
-          </TimelineItem>
-
-          <TimelineItem>
-            <TimelineYear>2022</TimelineYear>
-            <TimelineContent>
-              <h4>Growth</h4>
-              <p>Development of the recommendation engine and formalization of the applications system. First major industry partnerships established.</p>
-            </TimelineContent>
-          </TimelineItem>
-
-          <TimelineItem>
-            <TimelineYear>2023</TimelineYear>
-            <TimelineContent>
-              <h4>Innovation</h4>
-              <p>Integration of advanced matching algorithms and expansion to include more research areas and student cohorts.</p>
-            </TimelineContent>
-          </TimelineItem>
-
-          <TimelineItem>
-            <TimelineYear>2024</TimelineYear>
-            <TimelineContent>
-              <h4>Community Impact</h4>
-              <p>Hundreds of students matched with cutting-edge research opportunities, fostering a vibrant ML community at USC.</p>
-            </TimelineContent>
-          </TimelineItem>
-        </TimelineSection>
-      </ContentSection>
-
-      <ContentSection>
         <div style={{ background: 'linear-gradient(135deg, rgba(153, 0, 0, 0.05) 0%, rgba(153, 0, 0, 0.02) 100%)', borderRadius: '12px', padding: '3rem', textAlign: 'center' }}>
           <h3 style={{ fontSize: '1.8rem', fontWeight: 700, color: '#333', marginBottom: '1rem', marginTop: 0 }}>Special Thanks</h3>
           <p style={{ fontSize: '1.1rem', color: '#666', lineHeight: 1.8, marginBottom: 0 }}>
