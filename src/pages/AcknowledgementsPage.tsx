@@ -395,7 +395,7 @@ const AcknowledgementsPage: React.FC = () => {
           {/* Full-Stack Developer 2 */}
           <TeamMemberCard>
             <TeamMemberImage>
-              👨‍💻
+              <img src={getImagePath('/images/developers%20images/Harsh%20T.jpg')} alt="Harsh Toshniwal" />
             </TeamMemberImage>
             <TeamMemberInfo>
               <h3>Harsh Toshniwal</h3>
