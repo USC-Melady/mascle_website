@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/mascle_website/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaSCle - Loading...</title>
+    <script>
+      // Redirect all 404s to the index.html with the path preserved
+      // This allows client-side routing to work properly
+      sessionStorage.redirect = location.pathname + location.search;
+      location.href = "/mascle_website/";
+    </script>
+  </head>
+  <body>
+    Loading...
+  </body>
+</html>
