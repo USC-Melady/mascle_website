@@ -120,6 +120,7 @@ const TeamMemberImage = styled.div`
 
 const TeamMemberInfo = styled.div`
   padding: 1.5rem;
+  text-align: center;
 
   h3 {
     font-size: 1.1rem;
@@ -356,7 +357,7 @@ const AcknowledgementsPage: React.FC = () => {
           {/* Director */}
           <TeamMemberCard>
             <TeamMemberImage>
-              <img src={getImagePath('/images/faculty/yan_liu.jpg')} alt="Prof. Yan Liu" />
+              <img src={getImagePath('/images/developers%20images/Yan%20Liu.jpg')} alt="Prof. Yan Liu" />
             </TeamMemberImage>
             <TeamMemberInfo>
               <h3>Prof. Yan Liu</h3>
@@ -368,7 +369,7 @@ const AcknowledgementsPage: React.FC = () => {
           {/* Project Lead */}
           <TeamMemberCard>
             <TeamMemberImage>
-              👩‍💼
+              <img src={getImagePath('/images/developers%20images/Emily%20N.jpg')} alt="Emily Nguyen" />
             </TeamMemberImage>
             <TeamMemberInfo>
               <h3>Emily Nguyen</h3>
