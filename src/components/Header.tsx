@@ -104,6 +104,12 @@ const StyledNavDropdown = styled(NavDropdown)`
       background-color: rgba(153, 0, 0, 0.1);
     }
   }
+
+  .dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+    min-width: 220px;
+  }
 `;
 
 /** 
@@ -347,12 +353,13 @@ const Header: React.FC = () => {
                           <NavDropdown.Item as={Link} to="/apply">How to Apply</NavDropdown.Item>
                         )}
                       </StyledNavDropdown>
-                      <RedNavLink as={Link} to="/events">Events</RedNavLink>
-
                       <RedNavLink as={Link} to="/education">Education</RedNavLink>
                       <RedNavLink as={Link} to="/honors">Honors</RedNavLink>
                       <RedNavLink as={Link} to="/sponsors">Sponsors</RedNavLink>
-                      <RedNavLink as={Link} to="/about">About</RedNavLink>
+                      <StyledNavDropdown title="About" id="about-dropdown">
+                        <NavDropdown.Item as={Link} to="/about">About MaSCle</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/acknowledgements">Dev Team & Acknowledgements</NavDropdown.Item>
+                      </StyledNavDropdown>
 
                       {/* Apply link removed from main nav - moved/managed elsewhere when needed */}
 
@@ -367,11 +374,6 @@ const Header: React.FC = () => {
                           <NavDropdown.Divider />
                           <NavDropdown.Item onClick={handleLogout}>Logout</NavDropdown.Item>
                         </StyledNavDropdown>
-                      )}
-                      
-                      {/* Login link - only shown when not authenticated */}
-                      {!isAuthenticated && (
-                        <RedNavLink as={Link} to="/login">Login</RedNavLink>
                       )}
                     </Nav>
                   </Col>
@@ -417,12 +419,13 @@ const Header: React.FC = () => {
               <NavDropdown.Item as={Link} to="/labs" onClick={handleClose}>Labs</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/research-overview" onClick={handleClose}>Application Overview</NavDropdown.Item>
             </StyledNavDropdown>
-            <RedNavLink as={Link} to="/events" onClick={handleClose}>Events</RedNavLink>
-
             <RedNavLink as={Link} to="/education" onClick={handleClose}>Education</RedNavLink>
             <RedNavLink as={Link} to="/honors" onClick={handleClose}>Honors</RedNavLink>
-            <RedNavLink as={Link} to="/about" onClick={handleClose}>About</RedNavLink>
             <RedNavLink as={Link} to="/sponsors" onClick={handleClose}>Sponsors</RedNavLink>
+            <StyledNavDropdown title="About" id="about-dropdown-mobile">
+              <NavDropdown.Item as={Link} to="/about" onClick={handleClose}>About MaSCle</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/acknowledgements" onClick={handleClose}>Dev Team & Acknowledgements</NavDropdown.Item>
+            </StyledNavDropdown>
             
             {/* User menu items for mobile */}
             {isAuthenticated && (
@@ -433,14 +436,6 @@ const Header: React.FC = () => {
                 </div>
                 <RedNavLink as={Link} to={getDashboardUrl()} onClick={handleClose}>Dashboard</RedNavLink>
                 <RedNavLink onClick={() => { handleLogout(); handleClose(); }}>Logout</RedNavLink>
-              </>
-            )}
-            
-            {/* Login link for mobile */}
-            {!isAuthenticated && (
-              <>
-                <div className="border-top my-2"></div>
-                <RedNavLink as={Link} to="/login" onClick={handleClose}>Login</RedNavLink>
               </>
             )}
           </MobileNav>

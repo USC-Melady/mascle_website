@@ -6,7 +6,7 @@ import AboutPage from './components/AboutPage';
 import PeoplePage from './components/PeoplePage';
 import FacultyPage from './components/FacultyPage';
 import StudentsPage from './components/StudentsPage';
-import Login from './components/Login';
+
 import SubscriptionForm from './components/SubscriptionForm';
 import Footer from './components/Footer';
 import StudentDashboard from './components/StudentDashboard/index';
@@ -22,13 +22,13 @@ import PublicJobsPage from './pages/PublicJobsPage';
 import EducationPage from './pages/EducationPage';
 import HonorsPage from './components/HonorsPage';
 import SponsorsPage from './pages/SponsorsPage';
-import EventsPage from './pages/EventsPage';
 import Profile from './components/Profile';
 import ProtectedRoute from './components/ProtectedRoute';
 import DashboardRedirect from './components/DashboardRedirect';
 import LabsPage from './components/LabsPage';
 import ApplyPage from './components/ApplyPage';
 import ResearchOverviewPage from './pages/ResearchOverviewPage';
+import AcknowledgementsPage from './pages/AcknowledgementsPage';
 
 const AppContainer = styled.div`
   min-height: 100vh;
@@ -137,23 +137,21 @@ function App() {
           {/* Sponsors page - public access */}
           <Route path="/sponsors" element={<SponsorsPage />} />
           
-          {/* Events page - public access */}
-          <Route path="/events" element={<EventsPage />} />
-          
           {/* Homepage with automatic role-based redirection */}
           <Route path="/" element={<DashboardRedirect />} />
 
           {/* About page */}
           <Route path="/about" element={<AboutPage />} />
           
+          {/* Acknowledgements page */}
+          <Route path="/acknowledgements" element={<ContentWrapper><AcknowledgementsPage /></ContentWrapper>} />
+          
           {/* Regular content with ContentWrapper */}
           <Route path="/people" element={<ContentWrapper><PeoplePage /></ContentWrapper>} />
           <Route path="/faculty" element={<ContentWrapper><FacultyPage /></ContentWrapper>} />
           <Route path="/students" element={<ContentWrapper><StudentsPage /></ContentWrapper>} />
-          <Route path="/login" element={<ContentWrapper><Login /></ContentWrapper>} />
           <Route path="/labs" element={<ContentWrapper><LabsPage /></ContentWrapper>} />
           <Route path="/sponsors" element={<ContentWrapper><SponsorsPage /></ContentWrapper>} />
-          <Route path="/events" element={<ContentWrapper><EventsPage /></ContentWrapper>} />
 
           {/* Apply page - only for logged out users */}
           <Route path="/apply" element={<ContentWrapper><ApplyPage /></ContentWrapper>} />

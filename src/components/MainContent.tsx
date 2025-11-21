@@ -30,9 +30,11 @@ const PageWrapper = styled.div`
 // Full-height hero section with particle animation
 const HeroSection = styled.div`
   position: relative;
-  height: 100vh;
-  min-height: 600px;
+  height: 85vh;
+  min-height: 500px;
+  max-height: 700px;
   margin-top: 3rem;
+  margin-bottom: 2rem;
   background: linear-gradient(180deg, #000000 0%, #1a0000 100%);
   overflow: hidden;
   width: 100vw;

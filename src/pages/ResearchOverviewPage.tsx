@@ -635,8 +635,8 @@ const ResearchOverviewPage: React.FC = () => {
     <>
       <HeroSection style={{
         backgroundImage: `
-          radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 70%, rgba(255, 255, 255, 0.6) 100%),
-          url('${getImagePath('/images/ApplyPage%20images/IMG_2361.jpg')}')
+          radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.15) 70%, rgba(255, 255, 255, 0.25) 100%),
+          url('${getImagePath('/images/ApplyPage%20images/background_image.jpg')}')
         `
       }}>
         <HeroContent>
@@ -728,7 +728,7 @@ const ResearchOverviewPage: React.FC = () => {
                   </TextContent>
 
                   <ImageContainer>
-                    <img src={getImagePath('/images/ApplyPage%20images/IMG_6746.jpg')} alt="Research presentation" />
+                    <img src={getImagePath('/images/ApplyPage%20images/IMG_2361.jpg')} alt="Research presentation" />
                   </ImageContainer>
                 </ApprenticeRow>
               </AnimatedDiv>
@@ -745,7 +745,7 @@ const ResearchOverviewPage: React.FC = () => {
           <ContactContent>
             <h3>MASCLE Research Program Office</h3>
             <p>MASCLE Research Program</p>
-            <p>Ginsburg Hall</p>
+            <p>4th floor, Ginsburg Hall</p>
             <p>University of Southern California</p>
             <p>Los Angeles, CA 90007</p>
             <p style={{ marginTop: '1.5rem' }}><strong>Drop-In Office Hours:</strong></p>
