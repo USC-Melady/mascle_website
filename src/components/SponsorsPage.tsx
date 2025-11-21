@@ -380,21 +380,6 @@ const SponsorsPage: React.FC = () => {
       </ContentSection>
 
       <ContentSection>
-        <TestimonialSection>
-          <TestimonialText>
-            "Working with MaSCle has been an outstanding experience. Their commitment to 
-            excellence and innovation in machine learning education is truly remarkable. 
-            We look forward to a long-term partnership."
-          </TestimonialText>
-          <TestimonialAuthor>
-            <AuthorLogo>🏢</AuthorLogo>
-            <AuthorText>
-              <AuthorName>Industry Partner</AuthorName>
-              <AuthorRole>Partnership Director</AuthorRole>
-            </AuthorText>
-          </TestimonialAuthor>
-        </TestimonialSection>
-
         <CTA>
           <CTATitle>Interested in Partnering?</CTATitle>
           <p style={{ color: '#666', fontSize: '1.1rem', marginBottom: '1.5rem' }}>

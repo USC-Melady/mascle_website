@@ -375,6 +375,11 @@ const Header: React.FC = () => {
                           <NavDropdown.Item onClick={handleLogout}>Logout</NavDropdown.Item>
                         </StyledNavDropdown>
                       )}
+
+                      {/* Login link - only shown when not authenticated */}
+                      {!isAuthenticated && (
+                        <RedNavLink as={Link} to="/login">Login</RedNavLink>
+                      )}
                     </Nav>
                   </Col>
                 </Row>
@@ -436,6 +441,14 @@ const Header: React.FC = () => {
                 </div>
                 <RedNavLink as={Link} to={getDashboardUrl()} onClick={handleClose}>Dashboard</RedNavLink>
                 <RedNavLink onClick={() => { handleLogout(); handleClose(); }}>Logout</RedNavLink>
+              </>
+            )}
+
+            {/* Login link for mobile */}
+            {!isAuthenticated && (
+              <>
+                <div className="border-top my-2"></div>
+                <RedNavLink as={Link} to="/login" onClick={handleClose}>Login</RedNavLink>
               </>
             )}
           </MobileNav>

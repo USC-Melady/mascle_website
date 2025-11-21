@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { Container } from 'react-bootstrap';
+import { getImagePath } from '../utils/imageHelper';
 
 const USC_RED = '#990000';
 
@@ -108,6 +109,13 @@ const TeamMemberImage = styled.div`
   font-size: 3.5rem;
   color: #ccc;
   border-bottom: 2px solid #ddd;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 `;
 
 const TeamMemberInfo = styled.div`
@@ -347,7 +355,9 @@ const AcknowledgementsPage: React.FC = () => {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '2rem', marginBottom: '3rem' }}>
           {/* Director */}
           <TeamMemberCard>
-            <TeamMemberImage>👨‍🏫</TeamMemberImage>
+            <TeamMemberImage>
+              <img src={getImagePath('/images/faculty/yan_liu.jpg')} alt="Prof. Yan Liu" />
+            </TeamMemberImage>
             <TeamMemberInfo>
               <h3>Prof. Yan Liu</h3>
               <p className="role">MASCLE Director</p>
@@ -357,7 +367,9 @@ const AcknowledgementsPage: React.FC = () => {
 
           {/* Project Lead */}
           <TeamMemberCard>
-            <TeamMemberImage>👩‍💼</TeamMemberImage>
+            <TeamMemberImage>
+              👩‍💼
+            </TeamMemberImage>
             <TeamMemberInfo>
               <h3>Emily Nguyen</h3>
               <p className="role">Project Lead</p>
@@ -368,7 +380,9 @@ const AcknowledgementsPage: React.FC = () => {
 
           {/* Full-Stack Developer 1 */}
           <TeamMemberCard>
-            <TeamMemberImage>👨‍💻</TeamMemberImage>
+            <TeamMemberImage>
+              <img src={getImagePath('/images/developers%20images/Alaba.jpeg')} alt="Alaba Alabaweh" />
+            </TeamMemberImage>
             <TeamMemberInfo>
               <h3>Alaba Alabaweh</h3>
               <p className="role">Full-Stack Developer</p>
@@ -379,7 +393,9 @@ const AcknowledgementsPage: React.FC = () => {
 
           {/* Full-Stack Developer 2 */}
           <TeamMemberCard>
-            <TeamMemberImage>👨‍💻</TeamMemberImage>
+            <TeamMemberImage>
+              👨‍💻
+            </TeamMemberImage>
             <TeamMemberInfo>
               <h3>Harsh Toshniwal</h3>
               <p className="role">Full-Stack Developer</p>
@@ -390,7 +406,9 @@ const AcknowledgementsPage: React.FC = () => {
 
           {/* ML Engineer */}
           <TeamMemberCard>
-            <TeamMemberImage>🤖</TeamMemberImage>
+            <TeamMemberImage>
+              <img src={getImagePath('/images/developers%20images/Bryce%20Kan.jpeg')} alt="Bryce Kan" />
+            </TeamMemberImage>
             <TeamMemberInfo>
               <h3>Bryce Kan</h3>
               <p className="role">ML Engineer</p>
@@ -401,7 +419,9 @@ const AcknowledgementsPage: React.FC = () => {
 
           {/* UI Designer */}
           <TeamMemberCard>
-            <TeamMemberImage>🎨</TeamMemberImage>
+            <TeamMemberImage>
+              <img src={getImagePath('/images/developers%20images/Zhou%20Joyce.jpeg')} alt="Joyce Zhou" />
+            </TeamMemberImage>
             <TeamMemberInfo>
               <h3>Joyce Zhou</h3>
               <p className="role">UI Designer</p>

@@ -6,7 +6,7 @@ import AboutPage from './components/AboutPage';
 import PeoplePage from './components/PeoplePage';
 import FacultyPage from './components/FacultyPage';
 import StudentsPage from './components/StudentsPage';
-
+import Login from './components/Login';
 import SubscriptionForm from './components/SubscriptionForm';
 import Footer from './components/Footer';
 import StudentDashboard from './components/StudentDashboard/index';
@@ -150,6 +150,7 @@ function App() {
           <Route path="/people" element={<ContentWrapper><PeoplePage /></ContentWrapper>} />
           <Route path="/faculty" element={<ContentWrapper><FacultyPage /></ContentWrapper>} />
           <Route path="/students" element={<ContentWrapper><StudentsPage /></ContentWrapper>} />
+          <Route path="/login" element={<ContentWrapper><Login /></ContentWrapper>} />
           <Route path="/labs" element={<ContentWrapper><LabsPage /></ContentWrapper>} />
           <Route path="/sponsors" element={<ContentWrapper><SponsorsPage /></ContentWrapper>} />
 
