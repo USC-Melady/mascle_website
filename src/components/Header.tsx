@@ -73,6 +73,18 @@ const MascleLogo = styled.img`
   }
 `;
 
+const LabText = styled.div`
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: ${USC_RED};
+  padding: 0 1rem;
+  
+  @media (min-width: 992px) {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+`;
+
 const StyledContainer = styled(Container)`
   padding: 0;
   max-width: 100% !important;
@@ -307,7 +319,7 @@ const Header: React.FC = () => {
       <MainNavbar className="border-bottom">
         <Container fluid>
           <Row className="w-100 m-0">
-            {/* Left column: Viterbi logo and center name */}
+            {/* Left column: Viterbi logo and Melady Lab text */}
             <LeftSection xs={12} lg="auto">
               <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
                 <Logo src={getImagePath('/images/usc-viterbi-logo1.jpg')} alt="USC Viterbi Logo" />
@@ -315,7 +327,7 @@ const Header: React.FC = () => {
                   className="mx-2 mx-lg-3 bg-secondary opacity-25"
                   style={{ width: '1px', height: '50px' }}
                 />
-                <MascleLogo src={getImagePath('/images/mascle_logo2.png')} alt="USC Machine Learning Center (MaSCle)" />
+                <LabText>MaSCle</LabText>
               </Navbar.Brand>
             </LeftSection>
 
