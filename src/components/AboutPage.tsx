@@ -394,20 +394,20 @@ const AboutPage: React.FC = () => {
 
         <ResearchGrid>
           <ResearchCard>
-            <h3>Deep Learning</h3>
-            <p>Neural network architectures, optimization methods, and theoretical foundations of deep learning systems for next-generation AI applications.</p>
+            <h3>Foundations of Machine Learning</h3>
+            <p>Strengthening the theoretic foundations of ML through rigorous mathematical modeling, architectural innovation, and advancement of optimization theory.</p>
           </ResearchCard>
           <ResearchCard>
-            <h3>Computer Vision</h3>
-            <p>Advanced image recognition, object detection, and visual understanding using cutting-edge machine learning techniques.</p>
+            <h3>Trustworthy and Safe AI</h3>
+            <p>Building reliable systems that are ethical, accountable, and secure through interpretability, robustness, and alignment</p>
           </ResearchCard>
           <ResearchCard>
-            <h3>Natural Language Processing</h3>
-            <p>Language understanding, text generation, and computational linguistics research for human-AI interaction.</p>
+            <h3>AI for Health</h3>
+            <p>Improving patient outcomes and diagnostic accuracy by streamlining clinical workflows, personalizing treatment plans, and accelerating the pace of medical discovery.</p>
           </ResearchCard>
           <ResearchCard>
             <h3>AI for Science</h3>
-            <p>Transformative applications in healthcare, biology, sustainability, and interdisciplinary scientific research.</p>
+            <p>Accelerating scientific discovery by modeling complex physical systems and uncovering hidden patterns within experimental data</p>
           </ResearchCard>
         </ResearchGrid>
       </Section>
