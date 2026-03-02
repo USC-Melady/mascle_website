@@ -205,6 +205,7 @@ const ResearchCard = styled.div`
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 12px;
   transition: all 0.3s ease;
+  text-align: center;
 
   @media (max-width: 768px) {
     padding: 1.75rem;
